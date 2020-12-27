@@ -4,11 +4,10 @@ HelloWorld = {
     end,
 
     get_name = function()
-        name = ""
-        while name == "" do
+        repeat
             io.write("Please enter your name: ")
             name = io.read()
-        end
+        until name ~= ""
         return name
     end
 }
