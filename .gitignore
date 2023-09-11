@@ -1,3 +1,6 @@
+# The executable we'll create in the compiled language directories
+hello
+
 # Created by https://www.gitignore.io/api/c,go,vim,c++,macos,haskell
 
 ### C ###
