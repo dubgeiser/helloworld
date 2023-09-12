@@ -7,7 +7,7 @@ import (
     "strings"
 )
 
-func get_name() string {
+func GetName() string {
     scanner := bufio.NewScanner(os.Stdin)
     for {
         fmt.Print("Enter your name: ");
@@ -20,5 +20,5 @@ func get_name() string {
 }
 
 func main() {
-    fmt.Println("Hello, " + get_name())
+    fmt.Println("Hello, " + GetName())
 }
